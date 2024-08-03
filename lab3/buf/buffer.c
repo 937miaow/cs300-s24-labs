@@ -11,6 +11,20 @@ void hack()
     exit(0);
 }
 
+/*
+高地址
+---------
+返回地址
+--------
+rbp
+--------
+48缓冲区
+--------
+基指针 rip
+-------
+低地址
+*/
+
 void foo()
 {
     // stack allocate some variables
